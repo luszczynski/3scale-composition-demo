@@ -1,0 +1,9 @@
+= 3Scale Composition Demo
+
+This demo shows how to use 3Scale and Fuse (Camel K) to orchestrate and create a composition of two microservices
+
+== Pre requisites
+
+* VSCode Extension Pack for Apache Camel by Red Hat
+* OpenShift 4.x (tested on 4.8)
+
