@@ -1,9 +1,55 @@
 = 3Scale Composition Demo
+:imagesdir: imgs
+:toc:
+:toc-title: Conteúdo
+:icons:
 
-This demo shows how to use 3Scale and Fuse (Camel K) to orchestrate and create a composition of two microservices
+image::5-8-2021-17-59-53-PM.png[]
+
+This demo shows how to use 3Scale and Fuse (Camel K) to orchestrate and expose a composition of two microservices.
+
+:toc-placement!:
 
 == Pre requisites
 
 * VSCode Extension Pack for Apache Camel by Red Hat
 * OpenShift 4.x (tested on 4.8)
+
+== Demo
+
+=== Create Kubernetes namespace
+
+image::5-8-2021-18-04-21-PM.png[]
+
+image::5-8-2021-18-06-18-PM.png[]
+
+=== Microservices deploy
+
+==== Person microservice
+
+image:5-8-2021-18-07-42-PM.png[]
+
+image::5-8-2021-18-10-02-PM.png[]
+
+image::5-8-2021-18-11-05-PM.png[]
+
+image::5-8-2021-18-19-00-PM.png[]
+
+image::5-8-2021-18-19-38-PM.png[]
+
+==== Account microservice
+
+image:5-8-2021-18-07-42-PM.png[]
+
+image:5-8-2021-18-21-21-PM.png[]
+
+image:5-8-2021-18-22-08-PM.png[]
+
+image::5-8-2021-18-26-18-PM.png[]
+
+image::5-8-2021-18-26-57-PM.png[]
+
+=== Kafka Deploy
+
+=== Camel K Deploy
 
